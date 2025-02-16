@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <>
       {/* Top Header */}
-      <div className="bg-slate-300">
+      <div style={{ zIndex: "999" }} className="bg-slate-300">
         <div className="max-w-5xl mx-auto px-4 text-black py-2">
           Hallow This is Next.js Top Header
         </div>
@@ -23,7 +23,10 @@ const Header = () => {
       </div>
 
       {/* Sticky Navigation Bar */}
-      <section className="bg-slate-300 sticky top-0 left-0 transition-all ease-in-out duration-300 shadow-md">
+      <section
+        style={{ zIndex: "999" }}
+        className="bg-slate-300 sticky top-0 left-0 transition-all ease-in-out duration-300 shadow-md"
+      >
         <header className="max-w-5xl mx-auto px-4 font-sans tracking-wide relative z-50">
           <div className="flex flex-wrap items-center justify-between gap-4 py-4 min-h-[70px]">
             {/* Logo */}

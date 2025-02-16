@@ -1,112 +1,124 @@
-[
-  {
-    "id": 1,
-    "name": "The Future of Web Development",
-    "image": "https://cdn.pixabay.com/photo/2016/12/28/09/36/web-1935737_1280.png",
-    "description": "Explore the evolving landscape of web development, from modern frameworks to new technologies.",
-    "createdAt": "2025-02-16T10:00:00Z",
-    "author": {
-      "name": "John Doe",
-      "image": "https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg"
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "The Future of Web Development",
+      "image": "https://cdn.pixabay.com/photo/2016/12/28/09/36/web-1935737_1280.png",
+      "description": "Explore the evolving landscape of web development, from modern frameworks to new technologies.",
+      "createdAt": "2025-02-16T10:00:00Z",
+      "likes": 150,
+      "author": {
+        "name": "John Doe",
+        "image": "https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg"
+      }
+    },
+    {
+      "id": "2",
+      "name": "React vs Vue: A Comparison",
+      "image": "https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg",
+      "description": "An in-depth comparison of React and Vue to help you choose the best framework for your next project.",
+      "createdAt": "2025-02-17T10:00:00Z",
+      "likes": 178,
+      "author": {
+        "name": "Jane Smith",
+        "image": "https://cdn.pixabay.com/photo/2016/09/14/08/26/web-1668927_1280.jpg"
+      }
+    },
+    {
+      "id": "3",
+      "name": "JavaScript Best Practices",
+      "image": "https://cdn.pixabay.com/photo/2019/10/03/12/12/javascript-4523100_1280.jpg",
+      "description": "Master JavaScript with these best practices and improve the performance and maintainability of your code.",
+      "createdAt": "2025-02-18T10:00:00Z",
+      "likes": 190,
+      "author": {
+        "name": "Alice Williams",
+        "image": "https://cdn.pixabay.com/photo/2015/06/05/07/11/road-sign-798175_1280.jpg"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Node.js for Beginners",
+      "image": "https://media.istockphoto.com/id/1347542592/photo/node-js-inscription-against-laptop-and-code-background.jpg?s=1024x1024&w=is&k=20&c=rVi7dhwjvJIdwEpJUjgZ_8M1_NC7rwJHsJ1WZnee4_A=",
+      "description": "A beginner's guide to understanding and using Node.js in your development projects.",
+      "createdAt": "2025-02-19T10:00:00Z",
+      "likes": 165,
+      "author": {
+        "name": "David Brown",
+        "image": "https://cdn.pixabay.com/photo/2018/03/28/11/23/people-3262456_960_720.jpg"
+      }
+    },
+    {
+      "id": "5",
+      "name": "CSS Grid vs Flexbox",
+      "image": "https://cdn.pixabay.com/photo/2022/03/16/13/44/crypto-7072520_1280.jpg",
+      "description": "Learn the differences between CSS Grid and Flexbox, and how to use them in modern web design.",
+      "createdAt": "2025-02-20T10:00:00Z",
+      "likes": 200,
+      "author": {
+        "name": "Emily Davis",
+        "image": "https://cdn.pixabay.com/photo/2016/11/19/22/32/css3-1841488_1280.jpg"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Introduction to Web Accessibility",
+      "image": "https://cdn.pixabay.com/photo/2021/03/18/17/09/teacher-6105336_1280.png",
+      "description": "Learn how to make your websites accessible to a wider audience, including people with disabilities.",
+      "createdAt": "2025-02-21T10:00:00Z",
+      "likes": 170,
+      "author": {
+        "name": "Michael Clark",
+        "image": "https://cdn.pixabay.com/photo/2017/08/25/22/45/people-2686241_960_720.jpg"
+      }
+    },
+    {
+      "id": "7",
+      "name": "The Importance of Responsive Design",
+      "image": "https://cdn.pixabay.com/photo/2015/02/24/19/58/notebook-647761_1280.jpg",
+      "description": "Understand why responsive design is crucial for delivering a great user experience on all devices.",
+      "createdAt": "2025-02-22T10:00:00Z",
+      "likes": 155,
+      "author": {
+        "name": "Sarah Johnson",
+        "image": "https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Exploring the MERN Stack",
+      "image": "https://cdn.pixabay.com/photo/2016/11/19/14/16/man-1839500_1280.jpg",
+      "description": "Learn about the MERN stack and how to use MongoDB, Express.js, React, and Node.js to build full-stack applications.",
+      "createdAt": "2025-02-23T10:00:00Z",
+      "likes": 180,
+      "author": {
+        "name": "Chris Taylor",
+        "image": "https://cdn.pixabay.com/photo/2017/09/23/11/00/books-2778472_1280.jpg"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Understanding Asynchronous JavaScript",
+      "image": "https://cdn.pixabay.com/photo/2016/03/29/16/49/electricity-1288717_1280.jpg",
+      "description": "Master asynchronous programming in JavaScript with promises, async/await, and callbacks.",
+      "createdAt": "2025-02-24T10:00:00Z",
+      "likes": 210,
+      "author": {
+        "name": "Robert Martin",
+        "image": "https://cdn.pixabay.com/photo/2016/03/27/07/38/people-1282270_960_720.jpg"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Building APIs with Node.js",
+      "image": "https://cdn.pixabay.com/photo/2019/06/06/16/02/technology-4256272_1280.jpg",
+      "description": "Learn how to build robust APIs using Node.js and Express, perfect for modern web applications.",
+      "createdAt": "2025-02-25T10:00:00Z",
+      "likes": 175,
+      "author": {
+        "name": "Jessica Lee",
+        "image": "https://cdn.pixabay.com/photo/2017/08/30/03/03/technology-2690799_960_720.jpg"
+      }
     }
-  },
-  {
-    "id": 2,
-    "name": "React vs Vue: A Comparison",
-    "image": "https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg",
-    "description": "An in-depth comparison of React and Vue to help you choose the best framework for your next project.",
-    "createdAt": "2025-02-17T10:00:00Z",
-    "author": {
-      "name": "Jane Smith",
-      "image": "https://cdn.pixabay.com/photo/2016/09/14/08/26/web-1668927_1280.jpg"
-    }
-  },
-  {
-    "id": 3,
-    "name": "JavaScript Best Practices",
-    "image": "https://cdn.pixabay.com/photo/2019/10/03/12/12/javascript-4523100_1280.jpg",
-    "description": "Master JavaScript with these best practices and improve the performance and maintainability of your code.",
-    "createdAt": "2025-02-18T10:00:00Z",
-    "author": {
-      "name": "Alice Williams",
-      "image": "https://cdn.pixabay.com/photo/2015/06/05/07/11/road-sign-798175_1280.jpg"
-    }
-  },
-  {
-    "id": 4,
-    "name": "Node.js for Beginners",
-    "image": "https://media.istockphoto.com/id/1347542592/photo/node-js-inscription-against-laptop-and-code-background.jpg?s=1024x1024&w=is&k=20&c=rVi7dhwjvJIdwEpJUjgZ_8M1_NC7rwJHsJ1WZnee4_A=",
-    "description": "A beginner's guide to understanding and using Node.js in your development projects.",
-    "createdAt": "2025-02-19T10:00:00Z",
-    "author": {
-      "name": "David Brown",
-      "image": "https://cdn.pixabay.com/photo/2018/03/28/11/23/people-3262456_960_720.jpg"
-    }
-  },
-  {
-    "id": 5,
-    "name": "CSS Grid vs Flexbox",
-    "image": "https://cdn.pixabay.com/photo/2022/03/16/13/44/crypto-7072520_1280.jpg",
-    "description": "Learn the differences between CSS Grid and Flexbox, and how to use them in modern web design.",
-    "createdAt": "2025-02-20T10:00:00Z",
-    "author": {
-      "name": "Emily Davis",
-      "image": "https://cdn.pixabay.com/photo/2016/11/19/22/32/css3-1841488_1280.jpg"
-    }
-  },
-  {
-    "id": 6,
-    "name": "Introduction to Web Accessibility",
-    "image": "https://cdn.pixabay.com/photo/2021/03/18/17/09/teacher-6105336_1280.png",
-    "description": "Learn how to make your websites accessible to a wider audience, including people with disabilities.",
-    "createdAt": "2025-02-21T10:00:00Z",
-    "author": {
-      "name": "Michael Clark",
-      "image": "https://cdn.pixabay.com/photo/2017/08/25/22/45/people-2686241_960_720.jpg"
-    }
-  },
-  {
-    "id": 7,
-    "name": "The Importance of Responsive Design",
-    "image": "https://cdn.pixabay.com/photo/2015/02/24/19/58/notebook-647761_1280.jpg",
-    "description": "Understand why responsive design is crucial for delivering a great user experience on all devices.",
-    "createdAt": "2025-02-22T10:00:00Z",
-    "author": {
-      "name": "Sarah Johnson",
-      "image": "https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg"
-    }
-  },
-  {
-    "id": 8,
-    "name": "Exploring the MERN Stack",
-    "image": "https://cdn.pixabay.com/photo/2016/11/19/14/16/man-1839500_1280.jpg",
-    "description": "Learn about the MERN stack and how to use MongoDB, Express.js, React, and Node.js to build full-stack applications.",
-    "createdAt": "2025-02-23T10:00:00Z",
-    "author": {
-      "name": "Chris Taylor",
-      "image": "https://cdn.pixabay.com/photo/2017/09/23/11/00/books-2778472_1280.jpg"
-    }
-  },
-  {
-    "id": 9,
-    "name": "Understanding Asynchronous JavaScript",
-    "image": "https://cdn.pixabay.com/photo/2019/10/03/12/12/javascript-4523100_1280.jpg",
-    "description": "Master asynchronous programming in JavaScript with promises, async/await, and callbacks.",
-    "createdAt": "2025-02-24T10:00:00Z",
-    "author": {
-      "name": "Robert Martin",
-      "image": "https://cdn.pixabay.com/photo/2016/03/27/07/38/people-1282270_960_720.jpg"
-    }
-  },
-  {
-    "id": 10,
-    "name": "Building APIs with Node.js",
-    "image": "https://cdn.pixabay.com/photo/2019/06/06/16/02/technology-4256272_1280.jpg",
-    "description": "Learn how to build robust APIs using Node.js and Express, perfect for modern web applications.",
-    "createdAt": "2025-02-25T10:00:00Z",
-    "author": {
-      "name": "Jessica Lee",
-      "image": "https://cdn.pixabay.com/photo/2017/08/30/03/03/technology-2690799_960_720.jpg"
-    }
-  }
-]
+  ]
+}
