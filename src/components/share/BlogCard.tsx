@@ -3,9 +3,10 @@
 import { TBlog } from "@/types/blogs";
 import moment from "moment";
 import Image from "next/image";
+import Link from "next/link";
 import { AiFillLike } from "react-icons/ai";
 const BlogCard = ({ blog }: { blog: TBlog }) => {
-  const { name, image, description, createdAt, author, likes } = blog;
+  const { id, name, image, description, createdAt, author, likes } = blog;
   const { name: authorName } = author;
   const date = moment(createdAt).format("MMMM D, YYYY");
 
@@ -26,7 +27,7 @@ const BlogCard = ({ blog }: { blog: TBlog }) => {
               {name.slice(0, 30)}
             </h3>
             <p>{description.slice(0, 50)}</p>
-            <div className="flex justify-between pt-5 items-center">
+            <div className="flex justify-between py-5 items-center">
               <div className="flex gap-3 items-center ">
                 <div className="relative w-10 h-10 ">
                   <Image
@@ -45,12 +46,15 @@ const BlogCard = ({ blog }: { blog: TBlog }) => {
                 {likes}
               </div>
             </div>
-            <button
-              type="button"
-              className="px-4 py-2 mt-6 rounded-md w-full text-white text-sm tracking-wider border-none outline-none bg-pink-500 hover:bg-pink-600"
-            >
-              Read More
-            </button>
+            <div>
+              <Link
+                href={`/blogs/${id}`}
+                //   type="Link"
+                className="px-4 py-2 mt-6 rounded-md w-full text-white text-sm tracking-wider border-none outline-none bg-pink-500 hover:bg-pink-600"
+              >
+                Read More
+              </Link>
+            </div>
           </div>
         </div>
       </div>

@@ -105,6 +105,15 @@ const Header = () => {
                 </svg>
               </button>
             </div>
+            <div>
+              <Link
+                href={`/blogs`}
+                //   type="Link"
+                className="px-4 py-2 mt-6 rounded-md w-full text-white text-sm tracking-wider border-none outline-none bg-pink-500 hover:bg-pink-600"
+              >
+                Read More
+              </Link>
+            </div>
           </div>
         </header>
       </section>
