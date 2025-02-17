@@ -32,7 +32,9 @@ const BlogCard = ({ blog }: { blog: TBlog }) => {
                 <div className="relative w-10 h-10 ">
                   <Image
                     className="rounded-full"
-                    fill
+                    priority={false}
+                    fill={true}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     src="https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper-thumbnail.png"
                     alt="Rounded avatar"
                   />

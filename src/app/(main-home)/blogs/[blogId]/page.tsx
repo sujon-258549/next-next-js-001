@@ -10,8 +10,13 @@ export const generateStaticParams = async () => {
   }));
 };
 
-const BlogDetails = async (params: Promise<{ blogId: string }>) => {
+const BlogDetails = async ({
+  params,
+}: {
+  params: Promise<{ blogId: string }>;
+}) => {
   const { blogId } = await params;
+  console.log(blogId);
   const res = await fetch(`http://localhost:5000/posts/${blogId}`);
   const blog = await res.json();
   const { name, image, description, createdAt, author, likes } = blog;
@@ -30,7 +35,9 @@ const BlogDetails = async (params: Promise<{ blogId: string }>) => {
             <div className="relative w-10 h-10">
               <Image
                 className="rounded-full"
-                fill
+                priority={false}
+                fill={true}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 src={authorImage}
                 alt={authorName}
               />

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,8 @@ const Header = () => {
     { name: "Blogs", href: "/blogs" },
     { name: "Contact", href: "/contact" },
   ];
-
+  const pathname = usePathname();
+  console.log(pathname);
   return (
     <>
       {/* Top Header */}
@@ -40,6 +42,7 @@ const Header = () => {
             </a>
 
             {/* Navigation Menu */}
+            <div></div>
             <div
               id="collapseMenu"
               className={`${
@@ -78,7 +81,9 @@ const Header = () => {
                     <Link
                       href={item.href}
                       className={`hover:text-[#007bff] block font-bold text-[15px] ${
-                        item.name === "Home" ? "text-[#007bff]" : "text-[#333]"
+                        item.href === pathname
+                          ? "text-[#007bff] border-b-[3px] border-[#007bff]"
+                          : "text-[#333]"
                       }`}
                     >
                       {item.name}
@@ -90,6 +95,13 @@ const Header = () => {
 
             {/* Mobile Menu Button */}
             <div className="flex max-lg:ml-auto">
+              <Link
+                href={`/blogs`}
+                //   type="Link"
+                className="px-4 py-2 block md:hidden mr-2 rounded-md w-full text-white text-sm tracking-wider border-none outline-none bg-pink-500 hover:bg-pink-600"
+              >
+                Create Post
+              </Link>
               <button className="lg:hidden" onClick={() => setIsMenuOpen(true)}>
                 <svg
                   className="w-7 h-7"
@@ -109,9 +121,9 @@ const Header = () => {
               <Link
                 href={`/blogs`}
                 //   type="Link"
-                className="px-4 py-2 mt-6 rounded-md w-full text-white text-sm tracking-wider border-none outline-none bg-pink-500 hover:bg-pink-600"
+                className="px-4 py-2 md:block hidden font-semibold rounded-md w-full text-white text-sm tracking-wider border-none outline-none bg-pink-500 hover:bg-pink-600"
               >
-                Read More
+                Create Post
               </Link>
             </div>
           </div>
