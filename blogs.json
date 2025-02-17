@@ -7,10 +7,8 @@
       "description": "The future of web development is evolving at a rapid pace, driven by advancements in technology and changing user expectations. Modern frameworks like React, Angular, and Vue are revolutionizing how developers build dynamic and responsive web applications. Additionally, the rise of serverless architecture, progressive web apps (PWAs), and WebAssembly is opening new possibilities for performance and scalability. Developers are also embracing AI and machine learning to create smarter, more personalized user experiences. As the demand for faster, more secure, and accessible websites grows, the role of web developers will continue to expand. Staying updated with the latest trends and tools is essential for anyone looking to thrive in this ever-changing field. The integration of AR/VR technologies and the increasing importance of cybersecurity are also shaping the future of web development. In this article, we explore these trends and discuss how they are transforming the way we build and interact with the web.",
       "createdAt": "2025-02-16T10:00:00Z",
       "likes": 150,
-      "author": {
-        "name": "John Doe",
-        "image": "https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg"
-      }
+      "author_name": "John Doe",
+      "author_image": "https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg"
     },
     {
       "id": "2",
@@ -19,10 +17,8 @@
       "description": "Choosing the right JavaScript framework for your project can be a daunting task, especially with so many options available. React and Vue are two of the most popular frameworks, each with its own strengths and weaknesses. React, developed by Facebook, is known for its flexibility and large ecosystem, making it ideal for complex, large-scale applications. Vue, on the other hand, is praised for its simplicity and ease of integration, making it a favorite among beginners and small to medium-sized projects. Both frameworks have robust communities and extensive documentation, but they differ in terms of learning curve, performance, and scalability. In this article, we provide an in-depth comparison of React and Vue, covering their core features, use cases, and performance benchmarks. Whether you're a seasoned developer or just starting out, this guide will help you make an informed decision for your next project.",
       "createdAt": "2025-02-17T10:00:00Z",
       "likes": 178,
-      "author": {
-        "name": "Jane Smith",
-        "image": "https://cdn.pixabay.com/photo/2016/09/14/08/26/web-1668927_1280.jpg"
-      }
+      "author_name": "Jane Smith",
+      "author_image": "https://cdn.pixabay.com/photo/2016/09/14/08/26/web-1668927_1280.jpg"
     },
     {
       "id": "3",
@@ -31,10 +27,8 @@
       "description": "JavaScript is one of the most widely used programming languages, powering millions of websites and applications. However, writing efficient and maintainable JavaScript code requires adherence to best practices. These include using modern ES6+ features like arrow functions, template literals, and destructuring, as well as avoiding common pitfalls such as global variables and callback hell. Proper error handling, modular code organization, and consistent coding conventions are also crucial for improving code readability and maintainability. Additionally, leveraging tools like linters, formatters, and bundlers can help streamline your development workflow. In this article, we explore these best practices in detail and provide practical tips for writing high-quality JavaScript code. Whether you're a beginner or an experienced developer, these guidelines will help you write cleaner, more efficient, and bug-free code.",
       "createdAt": "2025-02-18T10:00:00Z",
       "likes": 190,
-      "author": {
-        "name": "Alice Williams",
-        "image": "https://cdn.pixabay.com/photo/2015/06/05/07/11/road-sign-798175_1280.jpg"
-      }
+      "author_name": "Alice Williams",
+      "author_image": "https://cdn.pixabay.com/photo/2015/06/05/07/11/road-sign-798175_1280.jpg"
     },
     {
       "id": "4",
@@ -43,10 +37,8 @@
       "description": "Node.js has become a cornerstone of modern web development, enabling developers to build scalable and high-performance applications using JavaScript. For beginners, understanding the basics of Node.js is essential for diving into backend development. This includes learning about the event-driven architecture, the Node Package Manager (NPM), and the core modules like HTTP, FS, and Path. Node.js also excels in building real-time applications, thanks to its non-blocking I/O model. In this guide, we walk you through the fundamentals of Node.js, from setting up your development environment to creating your first server. We also cover best practices for structuring your projects, managing dependencies, and debugging your code. Whether you're new to programming or transitioning from another language, this article will provide you with the knowledge and confidence to start building with Node.js.",
       "createdAt": "2025-02-19T10:00:00Z",
       "likes": 165,
-      "author": {
-        "name": "David Brown",
-        "image": "https://cdn.pixabay.com/photo/2018/03/28/11/23/people-3262456_960_720.jpg"
-      }
+      "author_name": "David Brown",
+      "author_image": "https://cdn.pixabay.com/photo/2018/03/28/11/23/people-3262456_960_720.jpg"
     },
     {
       "id": "5",
@@ -55,10 +47,8 @@
       "description": "CSS Grid and Flexbox are two powerful layout systems that have transformed the way we design web pages. While both tools are designed to create responsive layouts, they serve different purposes and have unique strengths. Flexbox is ideal for one-dimensional layouts, such as aligning items in a row or column, while CSS Grid excels at creating complex, two-dimensional layouts. Understanding when and how to use each tool is key to building modern, responsive designs. In this article, we compare CSS Grid and Flexbox, highlighting their differences and use cases. We also provide practical examples and tips for combining both tools to create flexible and efficient layouts. Whether you're a beginner or an experienced developer, this guide will help you master the art of web layout design.",
       "createdAt": "2025-02-20T10:00:00Z",
       "likes": 200,
-      "author": {
-        "name": "Emily Davis",
-        "image": "https://cdn.pixabay.com/photo/2016/11/19/22/32/css3-1841488_1280.jpg"
-      }
+      "author_name": "Emily Davis",
+      "author_image": "https://cdn.pixabay.com/photo/2016/11/19/22/32/css3-1841488_1280.jpg"
     },
     {
       "id": "6",
@@ -67,10 +57,8 @@
       "description": "Web accessibility is a critical aspect of modern web development, ensuring that websites are usable by everyone, including people with disabilities. This involves following guidelines like the Web Content Accessibility Guidelines (WCAG) and using semantic HTML, ARIA roles, and keyboard navigation. Accessible design not only benefits users with disabilities but also improves the overall user experience and SEO. In this article, we introduce the principles of web accessibility and provide practical tips for making your websites more inclusive. We also discuss common accessibility issues and how to address them using tools and techniques. Whether you're a designer, developer, or content creator, this guide will help you create websites that are accessible to all.",
       "createdAt": "2025-02-21T10:00:00Z",
       "likes": 170,
-      "author": {
-        "name": "Michael Clark",
-        "image": "https://cdn.pixabay.com/photo/2017/08/25/22/45/people-2686241_960_720.jpg"
-      }
+      "author_name": "Michael Clark",
+      "author_image": "https://cdn.pixabay.com/photo/2017/08/25/22/45/people-2686241_960_720.jpg"
     },
     {
       "id": "7",
@@ -79,10 +67,8 @@
       "description": "Responsive design is no longer optional in today's multi-device world. With users accessing websites from a variety of devices, including smartphones, tablets, and desktops, it's essential to ensure that your website looks and functions well on all screen sizes. Responsive design involves using flexible grids, media queries, and scalable images to create a seamless user experience across devices. In this article, we explore the importance of responsive design and provide practical tips for implementing it in your projects. We also discuss common challenges and how to overcome them using modern tools and techniques. Whether you're a beginner or an experienced developer, this guide will help you create websites that are both beautiful and functional on any device.",
       "createdAt": "2025-02-22T10:00:00Z",
       "likes": 155,
-      "author": {
-        "name": "Sarah Johnson",
-        "image": "https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg"
-      }
+      "author_name": "Sarah Johnson",
+      "author_image": "https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg"
     },
     {
       "id": "8",
@@ -91,10 +77,8 @@
       "description": "The MERN stack, which stands for MongoDB, Express.js, React, and Node.js, is a popular choice for building full-stack web applications. Each component of the MERN stack plays a crucial role in the development process, from managing data with MongoDB to building user interfaces with React. In this article, we explore the MERN stack in detail, covering its core components, advantages, and use cases. We also provide a step-by-step guide to building a simple MERN application, from setting up your development environment to deploying your app. Whether you're new to full-stack development or looking to expand your skill set, this guide will help you get started with the MERN stack.",
       "createdAt": "2025-02-23T10:00:00Z",
       "likes": 180,
-      "author": {
-        "name": "Chris Taylor",
-        "image": "https://cdn.pixabay.com/photo/2017/09/23/11/00/books-2778472_1280.jpg"
-      }
+      "author_name": "Chris Taylor",
+      "author_image": "https://cdn.pixabay.com/photo/2017/09/23/11/00/books-2778472_1280.jpg"
     },
     {
       "id": "9",
@@ -103,10 +87,28 @@
       "description": "Asynchronous programming is a fundamental concept in JavaScript, enabling developers to perform tasks like fetching data from an API or reading files without blocking the main thread. This is achieved using callbacks, promises, and async/await, which allow code to run in the background and handle tasks efficiently. In this article, we explore the basics of asynchronous JavaScript, including how to use promises and async/await to write clean and efficient code. We also discuss common pitfalls and best practices for handling asynchronous operations. Whether you're a beginner or an experienced developer, this guide will help you master asynchronous programming in JavaScript.",
       "createdAt": "2025-02-24T10:00:00Z",
       "likes": 210,
-      "author": {
-        "name": "Robert Martin",
-        "image": "https://cdn.pixabay.com/photo/2016/03/27/07/38/people-1282270_960_720.jpg"
-      }
+      "author_name": "Robert Martin",
+      "author_image": "https://cdn.pixabay.com/photo/2016/03/27/07/38/people-1282270_960_720.jpg"
+    },
+    {
+      "id": "10",
+      "name": "SQL",
+      "image": "https://cdn.pixabay.com/photo/2017/09/23/11/00/books-2778472_1280.jpg",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200",
+      "createdAt": "1996-03-19",
+      "likes": "56",
+      "author_name": "https://cdn.pixabay.com/photo/2016/03/29/16/49/electricity-1288717_1280.jpg",
+      "author_image": "Debitis id non sequ"
+    },
+    {
+      "id": "11",
+      "name": "Chester Ramirez",
+      "image": "https://memgraph.com/images/blog/what-is-postgresql-database/cover.png",
+      "description": "Beatae voluptates re",
+      "createdAt": "1978-09-06",
+      "likes": "16",
+      "author_name": "https://cdn.pixabay.com/photo/2016/03/29/16/49/electricity-1288717_1280.jpg",
+      "author_image": "Aperiam velit ducim"
     }
   ]
 }

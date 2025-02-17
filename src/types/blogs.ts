@@ -1,8 +1,3 @@
-interface Author {
-  name: string;
-  image: string;
-}
-
 export interface TBlog {
   id: string;
   name: string;
@@ -10,5 +5,6 @@ export interface TBlog {
   likes: string;
   description: string;
   createdAt: string;
-  author: Author;
+  author_name: string;
+  author_image: string;
 }

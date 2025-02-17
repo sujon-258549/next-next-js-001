@@ -96,7 +96,7 @@ const Header = () => {
             {/* Mobile Menu Button */}
             <div className="flex max-lg:ml-auto">
               <Link
-                href={`/blogs`}
+                href={`/add-blog`}
                 //   type="Link"
                 className="px-4 py-2 block md:hidden mr-2 rounded-md w-full text-white text-sm tracking-wider border-none outline-none bg-pink-500 hover:bg-pink-600"
               >
@@ -119,7 +119,7 @@ const Header = () => {
             </div>
             <div>
               <Link
-                href={`/blogs`}
+                href={`/add-blog`}
                 //   type="Link"
                 className="px-4 py-2 md:block hidden font-semibold rounded-md w-full text-white text-sm tracking-wider border-none outline-none bg-pink-500 hover:bg-pink-600"
               >
